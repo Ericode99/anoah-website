@@ -1,5 +1,9 @@
+/**************************/
+/* Header & Hero Section */
+/**************************/
+
 .start-view {
-  height: 100vh;
+  height: 80vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
     url(../img/header-background.jpg);
   background-size: cover;
@@ -121,7 +125,7 @@
 }
 
 .section-hero {
-  height: 80vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -132,3 +136,79 @@
   border-radius: 9999px;
   box-shadow: 1.2rem 1.2rem 4.8rem #000;
 }
+
+/**************************/
+/* Featured In Section */
+/**************************/
+
+.featured-title {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 3.2rem;
+  margin-bottom: 2.4rem;
+  color: #888;
+}
+
+.featured-logos {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  margin: 0 4.8rem 9.6rem 4.8rem;
+}
+
+.feature-img {
+  justify-self: center;
+  max-width: 18rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
+
+.img-20min {
+  max-width: 5rem;
+}
+
+/**************************/
+/* Find Us Section */
+/**************************/
+
+.text-container {
+  margin: 3.2rem 6.4rem;
+  align-self: center;
+  justify-self: center;
+}
+
+.secondary-heading {
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.75px;
+  margin-bottom: 3.2rem;
+}
+
+.text-el {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.map-container {
+  justify-self: center;
+  align-self: center;
+  /* position: relative;
+  text-align: right; */
+  height: 500px;
+  width: 500px;
+}
+
+.map {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 500px;
+}
+
+/**************************/
+/* Events Section */
+/**************************/
