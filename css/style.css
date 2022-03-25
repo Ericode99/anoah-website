@@ -189,19 +189,6 @@
   justify-self: center;
 }
 
-.secondary-heading {
-  font-size: 4.8rem;
-  font-weight: 700;
-  color: #333;
-  letter-spacing: -0.75px;
-  margin-bottom: 3.2rem;
-}
-
-.text-el {
-  font-size: 2rem;
-  line-height: 1.5;
-}
-
 .map-container {
   justify-self: center;
   align-self: center;
@@ -228,14 +215,29 @@
   margin-bottom: 9.8rem;
 }
 
+.events-title-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4.8rem;
+}
+
 .event-grid {
-  justify-items: center;
+  /* justify-items: center; */
+  gap: 6.4rem;
+}
+
+.sushi-event {
+  justify-self: end;
+}
+
+.secret-bar-event {
+  justify-self: start;
 }
 
 .secret-bar-event,
 .sushi-event {
   border-radius: 20px;
-  box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 2.4rem rgba(0, 0, 0, 0.2);
 }
 
 .event-img {
@@ -245,7 +247,7 @@
 }
 
 .event-data {
-  margin: 4.8rem 3.2rem 6.4rem 3.2rem;
+  margin: 3.2rem 3.2rem 6.4rem 3.2rem;
 }
 
 .event-list {
@@ -267,8 +269,8 @@
 }
 
 .event-icon {
-  width: 2.4rem;
-  height: 2.4rem;
+  width: 3.2rem;
+  height: 3.2rem;
   margin-right: 1.2rem;
 }
 
@@ -285,5 +287,108 @@
 }
 
 .event-link-container {
+  margin-bottom: 4.8rem;
+}
+
+/**************************/
+/* Footer */
+/**************************/
+
+.footer {
+  font-size: 1.6rem;
+  line-height: 2.5;
+  margin-bottom: 3.2rem;
+  color: #777;
+}
+
+.heading-footer {
+  font-size: 1.8rem;
+  margin-bottom: 2.4rem;
+  font-weight: 600;
+  color: #444;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #333;
+}
+
+.grid--footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  row-gap: 8rem;
+}
+
+.footer-nav-list-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.8rem;
+}
+
+.footer-nav-list {
+  list-style: none;
+}
+
+.resource-list {
+  list-style: none;
+}
+
+.footer-logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+
+.footer-logo {
+  text-decoration: none;
+}
+
+.logo {
+  height: 4.8rem;
+  width: 4.8rem;
+  margin-right: 3.2rem;
+}
+
+.footer-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.social-icon {
+  height: 3.2rem;
+  width: 3.2rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
+
+.copyright {
+  margin-top: 4.8rem;
+  font-size: 1.2rem;
+}
+
+.contact {
+  font-style: normal;
+}
+
+.address {
+  margin-bottom: 4.8rem;
+  color: #444;
+}
+
+.oeffnungsdaten {
   margin-bottom: 4.8rem;
 }

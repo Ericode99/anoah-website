@@ -104,3 +104,16 @@ body {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
+
+.heading-secondary {
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.75px;
+  margin-bottom: 3.2rem;
+}
+
+.text-el {
+  font-size: 2rem;
+  line-height: 1.5;
+}
