@@ -1,0 +1,70 @@
+/**************************/
+/* Team Description */
+/**************************/
+
+.section-team-description {
+  margin: 4.8rem 0 8rem 0;
+}
+
+/* .center {
+  display: grid;
+  justify-content: center;
+} */
+
+.team-title {
+  text-align: center;
+}
+
+.team-text-container {
+  width: 70rem;
+  margin: 0 auto;
+}
+
+.team-text {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+/**************************/
+/* Team Section */
+/**************************/
+
+.team-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 9.6rem;
+}
+
+.employee {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgb(255, 255, 255)
+    ),
+    url(../img/noah.JPG);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  cursor: pointer;
+  height: 40rem;
+  width: 30rem;
+  border-radius: 20px;
+}
+
+.employee-description {
+  margin: auto 0 1.2rem 2.4rem;
+  position: absolute;
+  bottom: 0;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.4rem;
+}
+
+.job {
+  font-size: 1.6rem;
+}
