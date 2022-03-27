@@ -37,19 +37,113 @@
 }
 
 .employee {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0),
-      rgb(255, 255, 255)
-    ),
-    url(../img/noah.JPG);
   background-size: cover;
   background-position: center;
   position: relative;
   cursor: pointer;
+  box-shadow: 0 0.8rem 3.2rem rgba(0, 0, 0, 0.4);
   height: 40rem;
   width: 30rem;
   border-radius: 20px;
+}
+
+.noah {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 70%,
+      rgb(0, 0, 0)
+    ),
+    url(../img/noah.jpg);
+}
+
+.tobi {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 70%,
+      rgb(0, 0, 0)
+    ),
+    url(../img/tobi.jpg);
+}
+
+.yannis {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 70%,
+      rgb(0, 0, 0)
+    ),
+    url(../img/yannis.jpg);
+}
+
+.max {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 70%,
+      rgb(0, 0, 0)
+    ),
+    url(../img/max.jpg);
+}
+
+.linus {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 70%,
+      rgb(0, 0, 0)
+    ),
+    url(../img/linus.jpg);
+}
+
+.yanis {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 70%,
+      rgb(0, 0, 0)
+    ),
+    url(../img/yanis.jpg);
+}
+
+.marlon {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 70%,
+      rgb(0, 0, 0)
+    ),
+    url(../img/marlon.jpg);
+}
+
+.bela {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 70%,
+      rgb(0, 0, 0)
+    ),
+    url(../img/bela.jpg);
+}
+
+.tim {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 70%,
+      rgb(0, 0, 0)
+    ),
+    url(../img/tim.jpg);
+}
+
+.farah {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 70%,
+      rgb(0, 0, 0)
+    ),
+    url(../img/farah.jpg);
+}
+
+.elia {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 70%,
+      rgb(0, 0, 0)
+    ),
+    url(../img/elia.jpg);
 }
 
 .employee-description {
@@ -61,10 +155,101 @@
 .name {
   font-size: 2rem;
   font-weight: 600;
-  color: #333;
+  color: #fff;
   margin-bottom: 0.4rem;
 }
 
 .job {
   font-size: 1.6rem;
+  color: #ddd;
+}
+
+/**************************/
+/* Modal Window */
+/**************************/
+
+.hidden {
+  display: none;
+}
+
+.body {
+  position: relative;
+}
+
+.modal {
+  position: absolute;
+  top: 12rem;
+  left: 50%;
+  transform: translate(-50%, 0%);
+
+  background-color: white;
+  padding: 6rem;
+  border-radius: 20px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+.close-modal {
+  border: none;
+  background: transparent;
+  position: absolute;
+  top: -9%;
+  right: -4%;
+  cursor: pointer;
+}
+
+.close-modal-icon {
+  height: 3.2rem;
+  width: 3.2rem;
+  color: #555;
+}
+
+.modal-grid {
+  display: flex;
+  position: relative;
+}
+
+.profile-img-container {
+  display: flex;
+  align-items: center;
+}
+
+.profile-img {
+  height: 40rem;
+  border-radius: 11px;
+}
+
+.personal-description {
+  margin-left: 6rem;
+}
+
+.modal-job {
+  font-size: 1.6rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #0ca678;
+}
+
+.madal-name {
+  color: #333;
+}
+
+.modal-text {
+  font-size: 1.8rem;
+  line-height: 1.4;
+  height: 30rem;
+  overflow: scroll;
 }
