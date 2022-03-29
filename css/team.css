@@ -3,7 +3,7 @@
 /**************************/
 
 .section-team-description {
-  margin: 4.8rem 0 8rem 0;
+  margin: 6.4rem 0 8rem 0;
 }
 
 /* .center {
@@ -177,7 +177,8 @@
 }
 
 .modal {
-  position: absolute;
+  position: fixed;
+  /* with small screens I'll best do a full screen thing */
   top: 12rem;
   left: 50%;
   transform: translate(-50%, 0%);
@@ -186,7 +187,7 @@
   padding: 6rem;
   border-radius: 20px;
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
-  z-index: 10;
+  z-index: 9999;
 }
 
 .overlay {
@@ -195,9 +196,15 @@
   left: 0;
   width: 100%;
   height: 100%;
+  overflow: hidden;
+  margin: 0;
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
-  z-index: 5;
+  z-index: 5555;
+}
+
+.scroll-lock {
+  overflow: hidden;
 }
 
 .close-modal {

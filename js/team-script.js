@@ -40,7 +40,7 @@ allLinks.forEach(function (link) {
 ///////////////////////////////////////////////////////////////////////////
 // Team members functionality
 
-// Modal Selection
+// MODAL SELECTORS
 const modalNoah = document.querySelector(".modal-noah");
 const modalTobi = document.querySelector(".modal-tobi");
 const modalYannis = document.querySelector(".modal-yannis");
@@ -53,7 +53,7 @@ const modalTim = document.querySelector(".modal-tim");
 const modalFarah = document.querySelector(".modal-farah");
 const modalElia = document.querySelector(".modal-elia");
 
-// Button Selection
+// BUTTON SELECTORS
 const btnNoah = document.querySelector(".noah");
 const btnTobi = document.querySelector(".tobi");
 const btnYannis = document.querySelector(".yannis");
@@ -67,16 +67,30 @@ const btnFarah = document.querySelector(".farah");
 const btnElia = document.querySelector(".elia");
 
 const overlay = document.querySelector(".overlay");
-const btnCloseModal = document.querySelectorAll(".close-modal");
+const btnsCloseModal = document.querySelectorAll(".close-modal");
+const htmlEl = document.querySelector(".html");
 
-//Opening modals
+// FUNCTIONS
+let activeModal;
+
+// Opening modals
 function openModal(name) {
   name.classList.remove("hidden");
   overlay.classList.remove("hidden");
-  console.log("moin");
-  window.scrollTo(0, 0);
+  htmlEl.classList.add("scroll-lock");
+  activeModal = name;
 }
 
+// Closing modals
+function closeModal() {
+  activeModal.classList.add("hidden");
+  overlay.classList.add("hidden");
+  htmlEl.classList.remove("scroll-lock");
+}
+
+// EVENTS
+
+// Opening Modals
 btnNoah.addEventListener("click", function () {
   openModal(modalNoah);
 });
@@ -111,4 +125,13 @@ btnElia.addEventListener("click", function () {
   openModal(modalElia);
 });
 
-//Closing modals
+// Closing modals
+btnsCloseModal.forEach((btn) =>
+  btn.addEventListener("click", function () {
+    closeModal();
+  })
+);
+
+overlay.addEventListener("click", function () {
+  closeModal();
+});
