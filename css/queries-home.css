@@ -65,16 +65,6 @@
 }
 
 /**************************/
-/* BELOW 1000px */
-/**************************/
-
-@media (max-width: 63em) {
-  html {
-    font-size: 50%;
-  }
-}
-
-/**************************/
 /* BELOW 800px */
 /**************************/
 
@@ -201,5 +191,7 @@
   .newsletter-form-container {
     margin-left: 2.4rem;
     margin-right: 2.4rem;
+    display: grid;
+    justify-items: center;
   }
 }
