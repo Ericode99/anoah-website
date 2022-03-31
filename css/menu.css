@@ -1,0 +1,84 @@
+.menu-container {
+  padding: 0 4.8rem;
+}
+
+.monthly-change-text {
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  color: #0ca678;
+  margin-top: 9.6rem;
+  margin-bottom: 0.8rem;
+}
+
+.menu-grid {
+  margin-top: 6.4rem;
+  margin-bottom: 20rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 80rem;
+}
+
+.grid-element {
+  width: fit-content;
+  height: fit-content;
+  box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding-bottom: 3.2rem;
+}
+
+.menu-img {
+  height: 40rem;
+  margin-bottom: 4.2rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.menu-text-container {
+  margin: 0 3.2rem;
+}
+
+.menu-title {
+  margin-bottom: 3.2rem;
+}
+
+.price-text {
+  font-size: 1.8rem;
+  color: #444;
+  margin-bottom: 1.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.clipboard-icon {
+  height: 3.2rem;
+  width: 3.2rem;
+  margin-right: 0.8rem;
+  color: #087f5b;
+}
+
+.price-text-last {
+  margin-bottom: 4.8rem;
+}
+
+.menu-pdf-link:link,
+.menu-pdf-link:visited {
+  font-size: 2.4rem;
+  color: #e6fcf5;
+  background-color: #087f5b;
+  text-decoration: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 9px;
+  transition: all 0.3s;
+}
+
+.menu-pdf-link:hover,
+.menu-pdf-link:active {
+  background-color: #0ca678;
+}
+
+.external-link-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}

@@ -1,0 +1,142 @@
+/**************************/
+/* BELOW 1280px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 80em) {
+  .team-grid {
+    grid-template-columns: 1fr 1fr;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .modal {
+    width: 95rem;
+  }
+}
+
+/**************************/
+/* BELOW 650px height */
+/**************************/
+
+@media (max-height: 40.5em) {
+  .modal {
+    top: 6rem;
+  }
+}
+
+/**************************/
+/* BELOW 1000px */
+/**************************/
+
+@media (max-width: 63em) {
+  .modal {
+    top: 6rem;
+  }
+}
+
+/**************************/
+/* BELOW 470px height */
+/**************************/
+
+@media (max-height: 40.5em) {
+  .profile-img {
+    height: 30rem;
+  }
+
+  .modal-text {
+    height: 17rem;
+  }
+}
+
+/**************************/
+/* BELOW 800px */
+/**************************/
+
+@media (max-width: 50em) {
+  .modal {
+    width: 70rem;
+    padding: 5rem;
+  }
+
+  .close-modal {
+    top: -7%;
+    right: -3%;
+  }
+
+  .profile-img {
+    height: 30rem;
+  }
+}
+
+/**************************/
+/* BELOW 400px height */
+/**************************/
+
+@media (max-height: 25em) {
+  .modal {
+    top: 3rem;
+    padding: 4rem;
+  }
+
+  .close-modal {
+    top: -3%;
+    right: -2%;
+  }
+}
+
+/**************************/
+/* BELOW 600px */
+/**************************/
+
+@media (max-width: 37.5em) {
+  .team-text {
+    margin-left: 3.2rem;
+    margin-right: 3.2rem;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .modal {
+    width: 45rem;
+    padding: 4rem;
+  }
+
+  .close-modal {
+    top: -3%;
+    right: -2%;
+  }
+
+  .modal-grid {
+    flex-direction: column;
+  }
+
+  .profile-img {
+    height: 20rem;
+    margin-bottom: 3.2rem;
+  }
+
+  .personal-description {
+    margin: 0;
+  }
+
+  .modal-text {
+    height: 22rem;
+  }
+}
+
+/**************************/
+/* BELOW 400px */
+/**************************/
+
+@media (max-width: 25em) {
+  .modal {
+    width: 35rem;
+  }
+
+  .modal-text {
+    height: 28rem;
+  }
+}
