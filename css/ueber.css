@@ -9,6 +9,10 @@
   gap: 4.8rem;
 }
 
+.long-text-grid {
+  align-items: start;
+}
+
 .subtitle {
   letter-spacing: 5px;
 }
@@ -19,6 +23,27 @@
 
 .ueber-img {
   max-width: 50rem;
+}
+
+.catering-link:link,
+.catering-link:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.catering-link:hover,
+.catering-link:active {
+  color: #087f5b;
+}
+
+.external-link-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #087f5b;
+}
+
+.rounded-corners {
+  border-radius: 11px;
 }
 
 .footer {

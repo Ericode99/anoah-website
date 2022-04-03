@@ -5,7 +5,7 @@
 .start-view {
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
-    url(../img/header-background.jpg);
+    url(../img/header-background.webp);
   background-size: cover;
 }
 
