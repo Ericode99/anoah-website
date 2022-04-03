@@ -1,0 +1,36 @@
+/**************************/
+/* BELOW 800px */
+/**************************/
+
+@media (max-width: 50em) {
+  .media-img {
+    width: 30rem;
+  }
+}
+
+/**************************/
+/* BELOW 600px */
+/**************************/
+
+@media (max-width: 37.5em) {
+  .media-grid {
+    grid-template-columns: 1fr;
+    margin-top: 2.4rem;
+  }
+
+  .media-img {
+    grid-row: 1;
+    margin-bottom: 2.4rem;
+    justify-self: start;
+  }
+}
+
+/**************************/
+/* BELOW 400px */
+/**************************/
+
+@media (max-width: 25em) {
+  .media-grid {
+    margin: 2.4rem 1.2rem;
+  }
+}
