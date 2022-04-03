@@ -18,11 +18,29 @@
 
 @media (max-width: 50em) {
   .ueber-grid {
+    grid-template-columns: 1fr;
+    margin-top: 3.2rem;
+  }
+
+  .ueber-grid {
     gap: 0rem;
   }
 
+  .first-img-container {
+    grid-row: 1;
+  }
+
+  .first-img-container,
+  .second-img-container {
+    margin-bottom: 3.2rem;
+  }
+
   .ueber-img {
-    max-width: 25rem;
+    max-width: 35rem;
+  }
+
+  .text-el {
+    max-width: 60rem;
   }
 }
 
@@ -31,14 +49,9 @@
 /**************************/
 
 @media (max-width: 37.5em) {
-  .ueber-grid {
-    grid-template-columns: 1fr;
-    /* margin: 3.2rem; */
-    gap: 3.2rem;
-  }
-
+  .first-img-container,
   .second-img-container {
-    grid-row: 2;
+    justify-self: start;
   }
 
   .ueber-img {
