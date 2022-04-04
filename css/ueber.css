@@ -13,6 +13,12 @@
   align-items: start;
 }
 
+.only-text-grid {
+  grid-template-columns: 1fr;
+  max-width: 60rem;
+  margin: 9.6rem auto;
+}
+
 .subtitle {
   letter-spacing: 5px;
 }
