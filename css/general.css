@@ -391,6 +391,11 @@ body {
   list-style: none;
 }
 
+.daterk {
+  margin-top: 1.2rem;
+  line-height: 1.2;
+}
+
 .footer-logo-container {
   display: flex;
   align-items: center;
