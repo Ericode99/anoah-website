@@ -234,6 +234,20 @@
   border: none;
   margin-bottom: 3.2rem;
   background-color: #e6fcf5;
+
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  padding: 0 1.2rem;
+}
+
+.newsletter-input::placeholder {
+  color: #aaa;
+}
+
+.newsletter-form-container *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
 
 .newsletter-btn-container {
