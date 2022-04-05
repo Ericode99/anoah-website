@@ -52,6 +52,31 @@
   border-radius: 11px;
 }
 
+.pdf-link-container {
+  margin-top: 3.2rem;
+}
+
+.pdf-link:link,
+.pdf-link:visited {
+  font-size: 2.4rem;
+  color: #e6fcf5;
+  background-color: #087f5b;
+  text-decoration: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 9px;
+  transition: all 0.3s;
+}
+
+.pdf-link:hover,
+.pdf-link:active {
+  background-color: #0ca678;
+}
+
+.external-btn-link-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
 .footer {
   margin-top: 20rem;
 }

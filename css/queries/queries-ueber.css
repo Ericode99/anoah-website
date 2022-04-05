@@ -39,6 +39,10 @@
     max-width: 35rem;
   }
 
+  .heading-tertiary {
+    max-width: 60rem;
+  }
+
   .text-el {
     max-width: 60rem;
   }
