@@ -31,14 +31,14 @@
   max-width: 50rem;
 }
 
-.catering-link:link,
-.catering-link:visited {
+.external-link:link,
+.external-link:visited {
   text-decoration: none;
   color: inherit;
 }
 
-.catering-link:hover,
-.catering-link:active {
+.external-link:hover,
+.external-link:active {
   color: #087f5b;
 }
 
