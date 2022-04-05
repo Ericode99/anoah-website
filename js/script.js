@@ -1,10 +1,29 @@
 "use strict";
 
-//Set current year
+/////////////////////////////////////////////////////////////
+// COOKIE NOTICE
+
+const cookieContainer = document.querySelector(".cookie-container");
+const cookieBtn = document.querySelector(".cookie-btn");
+
+cookieBtn.addEventListener("click", () => {
+  cookieContainer.classList.remove("active");
+  localStorage.setItem("cookieBannerDisplayed", "true");
+});
+
+setTimeout(() => {
+  if (!localStorage.getItem("cookieBannerDisplayed")) {
+    cookieContainer.classList.add("active");
+  }
+}, 2000);
+
+/////////////////////////////////////////////////////////////
+// SET CURRENT YEAR
 const yearEl = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
 yearEl.textContent = currentYear;
 
+/////////////////////////////////////////////////////////////
 // MENU FUNCTIONALITY
 
 const btnNav = document.querySelector(".btn-nav");
