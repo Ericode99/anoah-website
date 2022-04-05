@@ -1,0 +1,13 @@
+{
+  "name": "anoah",
+  "source": "index.html",
+  "browserslist": "since 2015",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@parcel/transformer-webmanifest": "^2.4.1",
+    "parcel": "^2.4.1"
+  }
+}
