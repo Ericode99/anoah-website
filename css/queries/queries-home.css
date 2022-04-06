@@ -160,7 +160,7 @@
 /* BELOW 400px */
 /**************************/
 
-@media (max-width: 25em) {
+@media (max-width: 27em) {
   .section-find-us .grid--2-cols {
     grid-template-columns: 1fr;
     grid-template-rows: 0.7fr 1fr;
