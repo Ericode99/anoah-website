@@ -1,4 +1,14 @@
 /**************************/
+/* BELOW 1450px */
+/**************************/
+
+@media (max-width: 90em) {
+  .logo-img {
+    height: 30rem;
+  }
+}
+
+/**************************/
 /* BELOW 1280px (Smaller desktops) */
 /**************************/
 
@@ -6,10 +16,6 @@
   .main-nav-link:link,
   .main-nav-link:visited {
     font-size: 3rem;
-  }
-
-  .logo-img {
-    height: 30rem;
   }
 
   .event-img {
