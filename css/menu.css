@@ -10,8 +10,7 @@
   margin-top: 6.4rem;
   margin-bottom: 6.4rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  max-width: 80rem;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .grid-element {
