@@ -133,7 +133,8 @@
 }
 
 .secret-bar-event,
-.sushi-event {
+.sushi-event,
+.brunch-event {
   border-radius: 20px;
   box-shadow: 0 0 2.4rem rgba(0, 0, 0, 0.2);
 }
