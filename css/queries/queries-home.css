@@ -106,6 +106,15 @@
 /**************************/
 
 @media (max-width: 37.5em) {
+  .social-links-hero {
+    margin-right: 2.4rem;
+  }
+
+  .social-icon-hero {
+    height: 4rem;
+    width: 4rem;
+  }
+
   .section-featured {
     margin-bottom: 8rem;
     display: none;

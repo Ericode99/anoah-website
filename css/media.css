@@ -38,3 +38,21 @@
   border-radius: 11px;
   justify-self: center;
 }
+
+.pr-contact {
+  margin-top: 7.2rem;
+  font-size: 2.4rem;
+  line-height: 1.5;
+}
+
+.pr-link:link,
+.pr-link:visited {
+  text-decoration: none;
+  color: #555;
+}
+
+.pr-link:hover,
+.pr-link:active {
+  text-decoration: none;
+  color: #333;
+}

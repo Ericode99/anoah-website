@@ -16,6 +16,26 @@
   align-items: center;
   flex-direction: column;
   gap: 4.8rem;
+
+  position: relative;
+}
+
+.social-links-hero {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+  margin-right: 3.2rem;
+}
+
+.social-icon-hero {
+  filter: invert(100%) sepia(1%) saturate(3813%) hue-rotate(175deg)
+    brightness(98%) contrast(95%);
+  height: 4.8rem;
+  width: 4.8rem;
 }
 
 .logo-img {
