@@ -83,6 +83,125 @@
 }
 
 /**************************/
+/* Modal Window */
+/**************************/
+
+.hidden {
+  display: none;
+}
+
+.body {
+  position: relative;
+}
+
+.pop-up {
+  position: fixed;
+  top: 12rem;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 80rem;
+
+  background-color: white;
+  padding: 3rem;
+  border-radius: 9px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+}
+
+.close-pop-up {
+  border: none;
+  background: transparent;
+  position: absolute;
+  top: 3%;
+  right: 2%;
+  cursor: pointer;
+}
+
+.close-pop-up-icon {
+  height: 3.2rem;
+  width: 3.2rem;
+  color: #555;
+}
+
+.pop-up-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.pop-up-img {
+  width: 30rem;
+  border-radius: 9px;
+}
+
+.icon-green {
+  color: #087f5b;
+}
+
+.pop-up-btns-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4.8rem;
+  gap: 1.2rem;
+}
+
+.btn-container {
+  height: 4rem;
+}
+
+.pop-up-btn:link,
+.pop-up-btn:visited {
+  text-decoration: none;
+  font-size: 2rem;
+
+  padding: 0.8rem 1.2rem;
+  border-radius: 7px;
+  box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.15);
+  transition: all 0.3s;
+}
+
+.btn-secondary:link,
+.btn-secondary:visited {
+  background-color: #ddd;
+  color: #555;
+}
+
+.btn-secondary:hover,
+.btn-secondary:active {
+  background-color: #f1f3f5;
+}
+
+.btn-primary:link,
+.btn-primary:visited {
+  background-color: #be4bdb;
+  color: #f1f3f5;
+  font-weight: 600;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+  background-color: #cc5de8;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5555;
+}
+
+.scroll-lock {
+  overflow-y: hidden;
+}
+
+/**************************/
 /* Featured In Section */
 /**************************/
 

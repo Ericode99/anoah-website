@@ -15,7 +15,7 @@ setTimeout(() => {
   if (!localStorage.getItem("cookieBannerDisplayed")) {
     cookieContainer.classList.add("active");
   }
-}, 2000);
+}, 1000);
 
 /////////////////////////////////////////////////////////////
 // SET CURRENT YEAR
@@ -87,6 +87,34 @@ const obs = new IntersectionObserver(
   }
 );
 obs.observe(sectionHeroEl);
+
+///////////////////////////////////////////////////////////
+// Pop Up Functionality
+
+const popUp = document.querySelector(".pop-up");
+const overlay = document.querySelector(".overlay");
+const htmlEl = document.querySelector(".html");
+const closeBtn = document.querySelector(".close-pop-up");
+
+setTimeout(() => {
+  popUp.classList.remove("hidden");
+  overlay.classList.remove("hidden");
+  htmlEl.classList.add("scroll-lock");
+}, 2000);
+
+function closePopUp() {
+  popUp.classList.add("hidden");
+  overlay.classList.add("hidden");
+  htmlEl.classList.remove("scroll-lock");
+}
+
+closeBtn.addEventListener("click", function () {
+  closePopUp();
+});
+
+overlay.addEventListener("click", function () {
+  closePopUp();
+});
 
 //////////////////////////////////////////////////////////////////
 // Mail Chimp form functionallity
