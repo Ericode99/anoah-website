@@ -143,6 +143,11 @@
     margin-bottom: 2.4rem;
   }
 
+  .close-pop-up {
+    top: 1.5%;
+    right: 3%;
+  }
+
   .section-featured {
     margin-bottom: 8rem;
     display: none;
