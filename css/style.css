@@ -90,9 +90,9 @@
   display: none;
 }
 
-.body {
+/* .body {
   position: relative;
-}
+} */
 
 .pop-up {
   position: fixed;
@@ -185,7 +185,7 @@
 }
 
 .overlay {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
