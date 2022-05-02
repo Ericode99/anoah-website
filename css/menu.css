@@ -76,6 +76,12 @@
   width: 2.4rem;
 }
 
+.menu-3-course-text {
+  font-size: 1.6rem;
+  margin-right: 1.8rem;
+  line-height: 1.15;
+}
+
 .footer {
   margin-top: 18rem;
 }
