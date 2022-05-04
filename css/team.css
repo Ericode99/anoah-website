@@ -56,14 +56,14 @@
     url(../img/noah.jpg);
 }
 
-.tobi {
+/* .tobi {
   background-image: linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0) 70%,
       rgb(0, 0, 0)
     ),
     url(../img/tobi.jpg);
-}
+} */
 
 .yannis {
   background-image: linear-gradient(
@@ -92,13 +92,13 @@
     url(../img/linus.jpg);
 }
 
-.yanis {
+.karin {
   background-image: linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0) 70%,
       rgb(0, 0, 0)
     ),
-    url(../img/yanis.jpg);
+    url(../img/karin.jpg);
 }
 
 .marlon {

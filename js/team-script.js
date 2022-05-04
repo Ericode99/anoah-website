@@ -47,11 +47,11 @@ allLinks.forEach(function (link) {
 
 // MODAL SELECTORS
 const modalNoah = document.querySelector(".modal-noah");
-const modalTobi = document.querySelector(".modal-tobi");
+// const modalTobi = document.querySelector(".modal-tobi");
 const modalYannis = document.querySelector(".modal-yannis");
 const modalMax = document.querySelector(".modal-max");
 const modalLinus = document.querySelector(".modal-linus");
-const modalYanis = document.querySelector(".modal-yanis");
+const modalKarin = document.querySelector(".modal-karin");
 const modalMarlon = document.querySelector(".modal-marlon");
 const modalBela = document.querySelector(".modal-bela");
 const modalTim = document.querySelector(".modal-tim");
@@ -60,11 +60,11 @@ const modalElia = document.querySelector(".modal-elia");
 
 // BUTTON SELECTORS
 const btnNoah = document.querySelector(".noah");
-const btnTobi = document.querySelector(".tobi");
+// const btnTobi = document.querySelector(".tobi");
 const btnYannis = document.querySelector(".yannis");
 const btnMax = document.querySelector(".max");
 const btnLinus = document.querySelector(".linus");
-const btnYanis = document.querySelector(".yanis");
+const btnKarin = document.querySelector(".karin");
 const btnMarlon = document.querySelector(".marlon");
 const btnBela = document.querySelector(".bela");
 const btnTim = document.querySelector(".tim");
@@ -99,9 +99,9 @@ function closeModal() {
 btnNoah.addEventListener("click", function () {
   openModal(modalNoah);
 });
-btnTobi.addEventListener("click", function () {
-  openModal(modalTobi);
-});
+// btnTobi.addEventListener("click", function () {
+//   openModal(modalTobi);
+// });
 btnYannis.addEventListener("click", function () {
   openModal(modalYannis);
 });
@@ -111,8 +111,8 @@ btnMax.addEventListener("click", function () {
 btnLinus.addEventListener("click", function () {
   openModal(modalLinus);
 });
-btnYanis.addEventListener("click", function () {
-  openModal(modalYanis);
+btnKarin.addEventListener("click", function () {
+  openModal(modalKarin);
 });
 btnMarlon.addEventListener("click", function () {
   openModal(modalMarlon);
