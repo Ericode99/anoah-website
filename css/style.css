@@ -83,7 +83,7 @@
 }
 
 /**************************/
-/* Poop Up Window */
+/* Pop Up Window */
 /**************************/
 
 .hidden {
@@ -261,10 +261,18 @@
 .event-grid {
   justify-items: center;
   padding: 0 2.4rem;
+  gap: 5.6rem;
+}
+
+.secret-bar-event {
+  justify-self: start;
+}
+
+.brunch-event {
+  justify-self: end;
 }
 
 .secret-bar-event,
-.sushi-event,
 .brunch-event {
   border-radius: 20px;
   box-shadow: 0 0 2.4rem rgba(0, 0, 0, 0.2);

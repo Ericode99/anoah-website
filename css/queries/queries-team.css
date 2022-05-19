@@ -33,6 +33,10 @@
   .modal {
     top: 6rem;
   }
+
+  .open-modal-icon {
+    color: #fff;
+  }
 }
 
 /**************************/

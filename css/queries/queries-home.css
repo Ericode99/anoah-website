@@ -167,6 +167,11 @@
     margin-bottom: 8rem;
   }
 
+  .secret-bar-event,
+  .brunch-event {
+    justify-self: center;
+  }
+
   .grid--2-cols {
     grid-template-columns: 1fr;
   }

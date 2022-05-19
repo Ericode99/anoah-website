@@ -51,12 +51,14 @@ const modalNoah = document.querySelector(".modal-noah");
 const modalYannis = document.querySelector(".modal-yannis");
 const modalMax = document.querySelector(".modal-max");
 const modalLinus = document.querySelector(".modal-linus");
+const modalChristoph = document.querySelector(".modal-christoph");
 const modalKarin = document.querySelector(".modal-karin");
 const modalMarlon = document.querySelector(".modal-marlon");
 const modalBela = document.querySelector(".modal-bela");
 const modalTim = document.querySelector(".modal-tim");
 const modalFarah = document.querySelector(".modal-farah");
 const modalElia = document.querySelector(".modal-elia");
+const modalEric = document.querySelector(".modal-eric");
 
 // BUTTON SELECTORS
 const btnNoah = document.querySelector(".noah");
@@ -64,12 +66,14 @@ const btnNoah = document.querySelector(".noah");
 const btnYannis = document.querySelector(".yannis");
 const btnMax = document.querySelector(".max");
 const btnLinus = document.querySelector(".linus");
+const btnChristoph = document.querySelector(".christoph");
 const btnKarin = document.querySelector(".karin");
 const btnMarlon = document.querySelector(".marlon");
 const btnBela = document.querySelector(".bela");
 const btnTim = document.querySelector(".tim");
 const btnFarah = document.querySelector(".farah");
 const btnElia = document.querySelector(".elia");
+const btnEric = document.querySelector(".eric");
 
 const overlay = document.querySelector(".overlay");
 const btnsCloseModal = document.querySelectorAll(".close-modal");
@@ -111,6 +115,9 @@ btnMax.addEventListener("click", function () {
 btnLinus.addEventListener("click", function () {
   openModal(modalLinus);
 });
+btnChristoph.addEventListener("click", function () {
+  openModal(modalChristoph);
+});
 btnKarin.addEventListener("click", function () {
   openModal(modalKarin);
 });
@@ -128,6 +135,9 @@ btnFarah.addEventListener("click", function () {
 });
 btnElia.addEventListener("click", function () {
   openModal(modalElia);
+});
+btnEric.addEventListener("click", function () {
+  openModal(modalEric);
 });
 
 // Closing modals
