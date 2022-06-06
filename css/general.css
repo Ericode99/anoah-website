@@ -432,7 +432,7 @@ body {
 .grid--footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  row-gap: 8rem;
+  row-gap: 7.2rem;
 }
 
 .nav-footer,

@@ -11,6 +11,7 @@
   margin-bottom: 6.4rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 5.6rem;
 }
 
 .grid-element {
